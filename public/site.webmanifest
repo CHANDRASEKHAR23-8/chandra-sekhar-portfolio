@@ -1,0 +1,17 @@
+{
+  "name": "Chinni Chandra Sekhar — Portfolio",
+  "short_name": "CS.dev",
+  "description": "Portfolio of Chinni Chandra Sekhar — Software Engineer, Java & Full Stack Developer, and AI/ML Enthusiast.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0f19",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

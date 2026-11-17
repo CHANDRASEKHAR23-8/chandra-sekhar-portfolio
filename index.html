@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en" class="dark" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Document Identity -->
+    <title>Chinni Chandra Sekhar | Software Engineer, Java &amp; Full Stack Developer</title>
+    <meta
+      name="description"
+      content="Official portfolio of Chinni Chandra Sekhar — Software Engineer, Java &amp; Full Stack Developer, and AI/ML Enthusiast. Computer Science undergraduate at Lakireddy Bali Reddy College of Engineering."
+    />
+    <meta
+      name="keywords"
+      content="Chinni Chandra Sekhar, Chandra Sekhar, Software Engineer, Java Developer, Full Stack Developer, React Developer, AI ML Enthusiast, Lakireddy Bali Reddy College of Engineering, Web Development, Portfolio"
+    />
+    <meta name="author" content="Chinni Chandra Sekhar" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://chandra-sekhar-portfolio.vercel.app/" />
+
+    <!-- Browser & Device Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Theme Color Definition for Mobile Browsers -->
+    <meta name="theme-color" content="#0a0d14" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)" />
+
+    <!-- Open Graph / Facebook / LinkedIn Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Chinni Chandra Sekhar Portfolio" />
+    <meta property="og:title" content="Chinni Chandra Sekhar | Software Engineer, Java &amp; Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="Official portfolio of Chinni Chandra Sekhar — Software Engineer, Java &amp; Full Stack Developer, and AI/ML Enthusiast. 3rd Year CSE at Lakireddy Bali Reddy College of Engineering."
+    />
+    <meta property="og:url" content="https://chandra-sekhar-portfolio.vercel.app/" />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Chinni Chandra Sekhar — Software Engineer Portfolio Preview" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X Cards Metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chinni Chandra Sekhar | Software Engineer, Java &amp; Full Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="Official portfolio of Chinni Chandra Sekhar — Software Engineer, Java &amp; Full Stack Developer, and AI/ML Enthusiast. 3rd Year CSE at Lakireddy Bali Reddy College of Engineering."
+    />
+    <meta name="twitter:image" content="/og-image.png" />
+    <meta name="twitter:image:alt" content="Chinni Chandra Sekhar — Software Engineer Portfolio Preview" />
+
+    <!-- Schema.org JSON-LD Structured Data for Search Engines -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://chandra-sekhar-portfolio.vercel.app/#person",
+            "name": "Chinni Chandra Sekhar",
+            "alternateName": "Chandra Sekhar",
+            "jobTitle": "Software Engineer | Java & Full Stack Developer | AI/ML Enthusiast",
+            "description": "Computer Science and Engineering undergraduate at Lakireddy Bali Reddy College of Engineering.",
+            "alumniOf": {
+              "@type": "EducationalOrganization",
+              "name": "Lakireddy Bali Reddy College of Engineering"
+            },
+            "url": "https://chandra-sekhar-portfolio.vercel.app/",
+            "sameAs": [
+              "https://github.com/CHANDRASEKHAR23-8",
+              "https://www.linkedin.com/in/chinni-chandra-sekhar-703629322/"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://chandra-sekhar-portfolio.vercel.app/#website",
+            "url": "https://chandra-sekhar-portfolio.vercel.app/",
+            "name": "Chinni Chandra Sekhar — Portfolio",
+            "description": "Portfolio of Chinni Chandra Sekhar — Software Engineer, Java & Full Stack Developer, and AI/ML Enthusiast.",
+            "publisher": {
+              "@id": "https://chandra-sekhar-portfolio.vercel.app/#person"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Anti-Flicker Theme Initialization -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('cs-portfolio-theme') || localStorage.getItem('theme');
+          var theme = (stored === 'light' || stored === 'dark') ? stored : 'dark';
+          var root = document.documentElement;
+          root.classList.remove('dark', 'light');
+          root.classList.add(theme);
+          root.setAttribute('data-theme', theme);
+          root.style.colorScheme = theme;
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Google Fonts Preconnect & Stylesheets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-background text-text-primary font-sans antialiased selection:bg-primary-subtle selection:text-primary min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

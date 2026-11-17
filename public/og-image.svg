@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0b0f19" />
+    </linearGradient>
+    <linearGradient id="primary" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <radialGradient id="glow1" cx="30%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#glow1)" />
+  <rect width="1200" height="630" fill="url(#glow2)" />
+
+  <!-- Grid Pattern Overlay -->
+  <g opacity="0.06" stroke="#ffffff" stroke-width="1">
+    <path d="M 0,105 H 1200 M 0,210 H 1200 M 0,315 H 1200 M 0,420 H 1200 M 0,525 H 1200" />
+    <path d="M 200,0 V 630 M 400,0 V 630 M 600,0 V 630 M 800,0 V 630 M 1000,0 V 630" />
+  </g>
+
+  <!-- Content Container Card -->
+  <g transform="translate(100, 80)">
+    <!-- Brand / Monogram Badge -->
+    <rect x="0" y="0" width="64" height="64" rx="16" fill="#1e1b4b" stroke="#6366f1" stroke-width="2" />
+    <text x="32" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Inter', monospace" font-size="24" font-weight="800" fill="#f8fafc" text-anchor="middle">CS<tspan fill="#06b6d4">.</tspan></text>
+
+    <!-- Sub-badge: Status -->
+    <g transform="translate(85, 14)">
+      <rect x="0" y="0" width="320" height="36" rx="18" fill="#102a27" stroke="#10b981" stroke-width="1.5" />
+      <circle cx="18" cy="18" r="5" fill="#10b981" />
+      <text x="34" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="13" font-weight="600" fill="#6ee7b7" letter-spacing="0.5">3RD YEAR CSE • LBRCE STUDENT</text>
+    </g>
+
+    <!-- Primary Heading: Name -->
+    <text x="0" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="64" font-weight="900" fill="#ffffff" letter-spacing="-1.5">
+      CHINNI CHANDRA SEKHAR
+    </text>
+
+    <!-- Role / Gradient Subheading -->
+    <text x="0" y="225" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="30" font-weight="700" fill="url(#primary)" letter-spacing="-0.5">
+      Software Engineer | Java &amp; Full Stack Developer | AI/ML Enthusiast
+    </text>
+
+    <!-- Short Narrative -->
+    <text x="0" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="20" font-weight="400" fill="#94a3b8">
+      Computer Science &amp; Engineering undergraduate at Lakireddy Bali Reddy College of Engineering.
+    </text>
+    <text x="0" y="312" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="20" font-weight="400" fill="#94a3b8">
+      Passionate about core Java, distributed architectures, modern React apps, and AI/ML systems.
+    </text>
+
+    <!-- Footer Links & Credentials Pill -->
+    <g transform="translate(0, 385)">
+      <!-- GitHub Pill -->
+      <g>
+        <rect x="0" y="0" width="310" height="48" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="24" y="30" font-family="-apple-system, BlinkMacSystemFont, 'JetBrains Mono', monospace" font-size="15" font-weight="500" fill="#e2e8f0">
+          github.com/CHANDRASEKHAR23-8
+        </text>
+      </g>
+
+      <!-- LinkedIn Pill -->
+      <g transform="translate(330, 0)">
+        <rect x="0" y="0" width="340" height="48" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="24" y="30" font-family="-apple-system, BlinkMacSystemFont, 'JetBrains Mono', monospace" font-size="15" font-weight="500" fill="#e2e8f0">
+          linkedin.com/in/chinni-chandra-sekhar
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
